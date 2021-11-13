@@ -14,6 +14,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'bootstrap', '~> 4.6', '>= 4.6.1'
 gem 'jquery-rails'
 
+gem 'json', '~> 2.6', '>= 2.6.1'
+
 group :development, :test do
 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
